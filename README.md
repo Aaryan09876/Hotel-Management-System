@@ -1,5 +1,7 @@
 # Hotel-Management-System
 The application supports multiple core functions: add new customer records, display available and booked rooms, assign rooms based on type and price, calculate total stay charges with tax, and generate final bills. Admin users can also view all bookings, search customer details by name or room number, and update checkout dates. 
 Data is stored using files or a database like MySQL/SQLite, ensuring persistence between sessions. Input validation and exception handling are implemented to prevent crashes from invalid entries.
-Technology Stack-The project is built using Python 3.x for core logic. It uses modules like datetime for check-in/check-out calculations, getpass for secure admin login, and tabulate for neat table formatting in the console. 
+Technology Stack  - The project is built using Python 3.x for core logic. It uses modules like datetime for check-in/check-out calculations, getpass for secure admin login, and tabulate for neat table formatting in the console. 
 For data storage, the system supports both text files and MySQL database connectivity via mysql-connector-python. The code follows modular design with separate functions for each operation, making it easy to maintain and extend.
+Future Enhancements  - Planned upgrades include adding a GUI using Tkinter/PyQt, integrating online payment gateways, SMS/email confirmation for bookings, and a dashboard for daily revenue reports. 
+The system can also be extended to support multiple hotel branches and role-based access for staff vs manager.
